@@ -1,0 +1,7 @@
+<resources>
+    <string id="AppName">garmin-dickbutt</string>
+
+	<bitmap id="LauncherIcon" filename="images/launcher_icon.png" />
+
+	<bitmap id="id_arrow" filename="images/arrow.png"/>
+</resources>
