@@ -29,7 +29,6 @@ class garmindickbuttView extends Ui.WatchFace {
     //! Update the view
     function onUpdate(dc) {    	
  		View.onUpdate(dc); 		
- 		var arrow = Ui.loadResource(Rez.Drawables.id_arrow);
 		var time = Sys.getClockTime();
         var hrAngle = 2 * Math.PI * (time.hour + time.min / 60.0) / 12.0 - Math.PI / 2;
         var minAngle = 2 * Math.PI * time.min / 60.0 - Math.PI / 2;
